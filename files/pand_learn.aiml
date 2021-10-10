@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+	<pattern>YES</pattern>
+	<that>I DO NOT KNOW.DO YOU EXERCISE REGULARLY</that>
+	<template>I think the possibility is quite low.</template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>I DO NOT KNOW.DO YOU EXERCISE REGULARLY</that>
+	<template>I think you should start now.Exercise can promote metabolism and reduce the chance of obesity.</template>
+</category>
+
+<category>
+	<pattern>WHAT IS MY NAME</pattern>
+	<that>HI !NICE TO MEET YOU</that>
+	<template>Your name is <get name='username'/></template>
+</category>
+
+</aiml>

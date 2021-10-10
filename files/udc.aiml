@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>Hi</pattern>
+    <template>
+        <random>
+            <li>HELLO!I am a chatbot that could provide some information about obesity.</li>
+            <li>Hi!Ask me something about obesity.</li>
+        </random>
+        </template>
+  </category>
+  
+   <category>
+      <pattern>My name is *</pattern>
+      <template>Hi !<think><set name='username'></set><star/></think> nice to meet you!</template>
+  </category>
+  
+  <category>
+      <pattern>WHAT IS OBESITY</pattern>
+      <template>Obesity is an abnormal or excessive fat accumulation that presents a risk to health.</template>
+  </category>
+  
+  <category>
+      <pattern>Will I get obesity</pattern>
+      <template>I don't know.Do you exercise regularly?</template>  
+   </category>
+
+   <category>
+      <pattern>YES</pattern>
+      <that>I don't know.Do you exercise regularly?</that>
+      <template>I think the possibility is quite low.</template>
+   </category>
+
+   <category>
+      <pattern>NO</pattern>
+      <that>I don't know.Do you exercise regularly?</that>
+      <template>I think you should start now.
+      Exercise can promote metabolism and reduce the chance of obesity.</template>
+   </category>
+  
+  <category>
+      <pattern>HOW TO PREVENT OBESITY</pattern>
+      <template>I will give you four prevention which is the most important.
+      First, Excersice regularly.
+      Second, Eat healthy.
+      Third, Make sure you getting enough sleep.
+      Forth, Having healthy lifestyle.</template>
+  </category>
+  
+  <category>
+      <pattern>*</pattern>
+      <template>Sorry, I couldn't understand.</template>
+  </category>
+  
+  <category>
+       <pattern><set>food</set> will cause obesity?</pattern>
+       <template>YES,<star/> will cause obesity.</template>
+   </category>
+   
+   <category>
+       <pattern>* will cause obesity?</pattern>
+       <template>NO,<star/> is good for health.</template>
+   </category>
+   
+   <category>
+       <pattern>WHAT IS THE IMPACT OF OBESITY</pattern>
+       <template>It will cause a various kind of diseases.</template>
+   </category>
+   
+   <category>
+       <pattern>WHAT KIND OF DISEASES</pattern>
+       <template>High blood pressure , Stroke , Coronary heart disease , Diabetes , Body pain , Mental illness and etc.</template>
+   </category>
+   
+   <category>
+       <pattern>HOW TO JUDGE</pattern>
+       <template>Underweight range: BMI is less than 18.5.
+       Healthy weight range: BMI is 18.5 to 25.
+       Overweight range: BMI is 25 to 30.
+       Obesity range: BMI is 30 or higher.</template>
+   </category>
+   
+   <category>
+       <pattern>HOW TO CALCULATE BMI</pattern>
+       <template>BMI = kg/m^2 </template>
+   </category>
+  
+  <category>
+      <pattern>WHICH FOOD WILL CAUSE OBESITY</pattern>
+      <template>Sugar-sweetened beverages , Processed meat , Pizza , Sweets , Ice-cream and etc.</template>
+  </category>
+  
+  <category>
+      <pattern>Will obesity can be cured</pattern>
+      <template>Yes , it can be cured by doing exercise and having healthy lifestyle.</template>
+  </category>
+  
+  <category>
+      <pattern>Which age group will get obesity easily</pattern>
+      <template>The obesity prevalence was 40.0% among adults aged 20 to 39 years, 
+      44.8% among adults aged 40 to 59 years, 
+      and 42.8% among adults aged 60 and older.</template>
+  </category>
+  
+  <category>
+      <pattern>Why will I get obesity</pattern>
+      <template>I think you are eating too much and moving too little.</template>
+  </category>
+  
+   <category>
+       <pattern>thanks</pattern>
+       <template>No problem.</template>
+   </category>
+   
+  
+  
+</aiml>
+
